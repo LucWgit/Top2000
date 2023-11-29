@@ -9,3 +9,5 @@ https://github.com/Programmer-Timmy/Top2000 extens tamplate https://github.com/P
 * header, navbar en footer staan in private/views/templates
 * Niet de index aanpassen
 * in private/config kan je de settings aanpassen
+* Geen head of body tags in de pagina bestanden!! die worden automaties toegevoegd
+  
