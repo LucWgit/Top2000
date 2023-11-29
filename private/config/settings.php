@@ -3,10 +3,10 @@
  * Database Settings
  */
 $database = [
-    'host' => 'localhost',
-    'user' => 'root',
-    'password' => '',
-    'database' => '',
+    'host' => 'portfolio.ictcampus.nl',
+    'user' => 'dbuser_top2000_2',
+    'password' => 'wz4Vqb&5Y@',
+    'database' => 'top2000_2',
 ];
 
 /**
