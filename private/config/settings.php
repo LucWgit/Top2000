@@ -13,7 +13,7 @@ $database = [
  * Site Settings
  */
 $site = [
-    'siteName' => 'PDO Template',
+    'siteName' => 'Top 2000',
     'debug' => true,
     'maintenance' => false,
     'showPopup' => true,
@@ -38,6 +38,7 @@ $allowedIPs = ['::0'];
  * Page Title Settings
  */
 $url = $_SERVER['REQUEST_URI'];
+$url = strpos($url, "?");
 
 // If the URL is the root path, set it to '/home'
 if ($url == '/') {
