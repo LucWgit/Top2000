@@ -38,7 +38,8 @@ $allowedIPs = ['::0'];
  * Page Title Settings
  */
 $url = $_SERVER['REQUEST_URI'];
-$url = strpos($url, "?");
+$url = explode('?', $url)[0];
+
 
 // If the URL is the root path, set it to '/home'
 if ($url == '/') {
