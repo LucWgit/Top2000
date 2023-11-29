@@ -4,7 +4,7 @@ https://github.com/Programmer-Timmy/Top2000 extens tamplate https://github.com/P
 
 ## How to use
 
->voor links naar andere pagina's typ aleen de bestandsnaam zoals dit: "home" en niet dit: "/home.php"
+* voor links naar andere pagina's typ aleen de bestandsnaam zoals dit: "home" en niet dit: "/home.php"
 
 plaats nieuwe pagina's in private/views/pages
 header, navbar en footer staan in private/views/templates
